@@ -9,7 +9,7 @@ For example, with a shift of three, the letter ‘A’ becomes ‘D’, ‘B’ 
 """
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 
-message=input("Enter a message: ")
+message=input("Enter a message (with small characters): ")
 
 key = int(input("Enter a shift value: "))
 
@@ -23,7 +23,7 @@ for char in message:
         new_index=(index+key) % 26
         char=alphabet[new_index]
     encrypted_message += char
-print(encrypted_message)
+print(f"The encrypted message is: {encrypted_message}")
 
 #Decryption part
 
@@ -36,5 +36,5 @@ for char in encrypted_message:
     else:
         init_meesage += char
 
-print(init_meesage)
+print(f"The decrypted message is: {init_meesage}")
 
