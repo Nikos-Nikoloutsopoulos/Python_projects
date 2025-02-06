@@ -1,9 +1,12 @@
+# This program encrypts and decrypts an input message using a key value
+
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 
 message=input("Enter a message: ")
 
 key = int(input("Enter a shift value: "))
 
+#Encryption part
 message=message.lower()
 encrypted_message =""
 
@@ -15,6 +18,7 @@ for char in message:
     encrypted_message += char
 print(encrypted_message)
 
+#Decryption part
 
 init_meesage=""  
     
