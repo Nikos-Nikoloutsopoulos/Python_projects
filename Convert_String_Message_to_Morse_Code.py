@@ -1,5 +1,4 @@
 
-
 #This programme converts a string message to morse code
 
 alphabet ="abcdefghijklmnopqrstuvwxyz"
