@@ -1,3 +1,4 @@
+#Using the Pythagorio Theorima calculates the best distance from a point
 import math
 
 our_point=(1,1)
