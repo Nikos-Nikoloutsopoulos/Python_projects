@@ -40,7 +40,7 @@ def play_game(board):
 
         print_board(board) 
         #Enter a move in the board
-        move = input("Enter a value between 0 and 8:")
+        move = input(f"Player {player} with sympol {sympols[player]}. Enter a value between 0 and 8:")
         #if the move is valid
         if not is_valid(move, board):
             print("Invalid Possition, Please tray again")
