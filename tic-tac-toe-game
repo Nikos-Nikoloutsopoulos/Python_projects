@@ -1,0 +1,71 @@
+#define the symbols of the play
+sympols ={1:"X",2:"O"}
+
+#Create an empty 3X3 board as list
+board=[" "]*9
+
+#Define the wining combinations
+lines=[(0,1,2),(3,4,5),(6,7,8),(0,3,6),(1,4,7),(2,5,8),(0,4,8),(2,4,6)]
+
+#Print the board
+def print_board(board):
+    print(board[0]+"|"+board[1]+"|"+ board[2])
+    print("------")
+    print(board[3]+"|"+board[4]+"|"+ board[5])
+    print("------")
+    print(board[6]+"|"+board[7]+"|"+ board[8])
+
+
+
+#Check if a player has win
+def player_won(lines, symbol):
+    for a1,a2,a3 in lines:
+        if board[a1] == board[a2] == board[a3] == symbol:
+            return True
+    return False
+
+
+# Check if a move is valid
+def is_valid(move,board):
+    return move.isdigit() and int(move) in range(9) and board[int(move)] == " "
+
+
+#Function to play the game
+def play_game(board):
+    #Initialize the current player
+    player =1
+
+    # While there are empty spaces on the board
+    while " " in board:
+
+        print_board(board) 
+        #Enter a move in the board
+        move = input("Enter a value between 0 and 8:")
+        #if the move is valid
+        if not is_valid(move, board):
+            print("Invalid Possition, Please tray again")
+            continue
+        move =int(move)
+        board[move] = sympols[player]
+        #Print the winner player
+        if player_won(lines, sympols[player]):
+            print(f"The player {player} has win")
+            print_board(board)
+            return
+        
+        #Switch between the players
+        if player == 1:
+            player =2
+        elif player ==2:
+            player =1
+    
+    print("The board is full no winner")
+    print_board(board)
+
+        
+play_game(board)
+
+
+
+    
+
