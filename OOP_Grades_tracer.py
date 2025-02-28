@@ -35,7 +35,7 @@ class Gradebook():
     def update_grade(self, name, subject, grade):
         if name in self.students:
             student= self.students[name]
-            student.update_grade[subject,grade]
+            student.update_grade(subject,grade)
             return True
         return False
 
