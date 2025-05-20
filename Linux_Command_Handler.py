@@ -25,6 +25,7 @@ with open('logfile.txt','+w') as output_file:
             output_file.writelines(print_file)
             print(s1.stdout)
             print_file = s1.stdout
+            output_file.writelines(print_file)
         else:
             print("Unsuccessful printout")
             print_file ="Unsuccessful printout\n"
