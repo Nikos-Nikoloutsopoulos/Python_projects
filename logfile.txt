@@ -1,0 +1,23 @@
+---------------------------------------------------
+Executed the command: rm -rf test1
+Successful printout
+---------------------------------------------------
+Executed the command: pwd
+Successful printout
+---------------------------------------------------
+Executed the command: pwd1
+Unsuccessful printout
+/bin/sh: 1: pwd1: not found
+---------------------------------------------------
+Executed the command: pwd
+Successful printout
+---------------------------------------------------
+Executed the command: mkdiro test1
+Unsuccessful printout
+/bin/sh: 1: mkdiro: not found
+---------------------------------------------------
+Executed the command: mkdir test1
+Successful printout
+---------------------------------------------------
+Executed the command: chmod 777 test1
+Successful printout
