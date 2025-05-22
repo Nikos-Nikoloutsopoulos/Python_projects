@@ -34,6 +34,6 @@ with open('logfile.txt','+w') as output_file:
             print_file = s1.stderr
             output_file.writelines(print_file)
 
-output_file.close()
-input_file.close()
+# output_file.close()
+# input_file.close()
 

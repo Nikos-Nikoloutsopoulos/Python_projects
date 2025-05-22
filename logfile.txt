@@ -27,21 +27,21 @@ Successful printout
 Executed the command: ls -la
 Successful printout
 total 56
-drwxrwxrwx+ 4 codespace root      4096 May 20 19:27 .
-drwxr-xrwx+ 5 codespace root      4096 May 20 19:14 ..
-drwxrwxrwx+ 9 codespace root      4096 May 20 19:18 .git
--rw-rw-rw-  1 codespace root       976 May 20 19:14 Convert_String_Message_to_Morse_Code.py
--rw-rw-rw-  1 codespace root       828 May 20 19:14 Culculate_the_closest_point_from_list.py
--rw-rw-rw-  1 codespace root      2192 May 20 19:14 Inheritance.py
--rw-rw-rw-  1 codespace codespace 1337 May 20 19:26 Linux_Command_Handler.py
--rw-rw-rw-  1 codespace root      2616 May 20 19:14 OOP_Grades_tracer.py
--rw-rw-rw-  1 codespace root       375 May 20 19:14 Password_Generator.py
--rw-rw-rw-  1 codespace root        13 May 20 19:14 README.md
--rw-rw-rw-  1 codespace codespace   84 May 20 19:27 commands.txt
--rw-rw-rw-  1 codespace codespace    0 May 20 19:27 logfile.txt
--rw-rw-rw-  1 codespace root      1179 May 20 19:14 message_encryption.py
-drwxrwxrwx+ 2 codespace codespace 4096 May 20 19:27 test1
--rw-rw-rw-  1 codespace root      1727 May 20 19:14 tic-tac-toe-game
+drwxrwxrwx+ 4 codespace root      4096 May 22 12:23 .
+drwxr-xrwx+ 5 codespace root      4096 May 22 12:22 ..
+drwxrwxrwx+ 9 codespace root      4096 May 22 12:22 .git
+-rw-rw-rw-  1 codespace root       976 May 22 12:22 Convert_String_Message_to_Morse_Code.py
+-rw-rw-rw-  1 codespace root       828 May 22 12:22 Culculate_the_closest_point_from_list.py
+-rw-rw-rw-  1 codespace root      2192 May 22 12:22 Inheritance.py
+-rw-rw-rw-  1 codespace root      1341 May 22 12:22 Linux_Command_Handler.py
+-rw-rw-rw-  1 codespace root      2616 May 22 12:22 OOP_Grades_tracer.py
+-rw-rw-rw-  1 codespace root       375 May 22 12:22 Password_Generator.py
+-rw-rw-rw-  1 codespace root        13 May 22 12:22 README.md
+-rw-rw-rw-  1 codespace root        84 May 22 12:22 commands.txt
+-rw-rw-rw-  1 codespace root         0 May 22 12:23 logfile.txt
+-rw-rw-rw-  1 codespace root      1179 May 22 12:22 message_encryption.py
+drwxrwxrwx+ 2 codespace codespace 4096 May 22 12:23 test1
+-rw-rw-rw-  1 codespace root      1727 May 22 12:22 tic-tac-toe-game
 ---------------------------------------------------
 Executed the command: ls -test1
 Unsuccessful printout
