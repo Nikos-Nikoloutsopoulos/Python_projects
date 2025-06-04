@@ -16,9 +16,9 @@ ssh_server.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 password =getpass.getpass("Enter the server password: ")
 
 server= {'hostname':'172.19.173.17', 'port':22, 'username':'nnikol','password':password}
-
+print(f"Connection to {server['hostname']}")
 ssh_server.connect(**server, look_for_keys=False, allow_agent=False)
-# Correct command handling
+
 with open('cmd_input.txt','r') as f:
     cmds = f.readlines()
     print(cmds)
